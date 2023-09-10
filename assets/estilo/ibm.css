@@ -12,21 +12,14 @@ header {
 	background-repeat: no-repeat;
 }
 
-.img-banner {
-	width: 100%;
-	height: 100%;
-
-}
-
-
 nav {
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	align-items: end;
+	align-items: center;
 	flex-direction: row;
-	gap: 4rem;
-	
+	gap: 8rem;
+	font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -35,7 +28,6 @@ nav a:hover {
 	transition: 0.4s;
 
 }
-
 
 main {
 	display: flex;
@@ -46,16 +38,16 @@ h1 {
 	justify-content: center;
 	text-align: center;
 	text-shadow: 2px 2px;
+	padding: 1rem;
+	font-size: 3rem;
 }
 
 h2 {
 	justify-content: center;
 	text-align: center;
 	color: blue;
+	padding: 1rem;
 }
-
-
-
 
 ul a:hover {
 	text-decoration: underline;
@@ -65,15 +57,62 @@ ul a:hover {
 * {
 	font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.img-logo {
-	max-width: 50%;
+#img-logo {
+	max-width: auto;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+.iglesia {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/* .img-logo {
+	max-width: auto;
 	height: auto;
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 	border-radius: 50%;
-}
-#baner {
+} */
+/* #baner {
 	background-image: url(conectate.jpg);
+} */
+
+
+article{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
+
+
+.div-art {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+	/* padding: 1rem; */
+	margin: 10px;
+	padding: 0.5rem;
+
+  }
+
+  .div-art img{
+	width: 100%;
+	height: 23rem;
+
+  }
+  .div-art button{
+	padding: 1rem;
+  }
